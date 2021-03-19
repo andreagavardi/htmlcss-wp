@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main_container {
+  width: 90%;
+  margin: auto;
+}
+.logo {
+  height: 80px;
+}
+.logo img {
+  height: 80%;
+  padding-right: 20px;
+}
+nav {
+  height: 40px;
+  margin-top: 20px;
+}
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: grey;
+  padding-right: 5px;
+}

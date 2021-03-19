@@ -38,12 +38,13 @@ nav {
 nav a {
   text-transform: uppercase;
   text-decoration: none;
-  color: grey;
+  color: #a6a6a6;
   padding-right: 5px;
 }
 
 /* main-css */
 
+/* heroimage-css */
 .heroimage {
   background: url("../img/banner.jpg");
   background-position: center;
@@ -53,7 +54,7 @@ nav a {
   position: relative;
   border-radius: 10px;
 }
-.text {
+.heroimage .text {
   position: absolute;
   top: 60%;
   left: 5%;
@@ -66,4 +67,63 @@ nav a {
 }
 .text > :first-child {
   font-size: 2.2rem;
+}
+.section_title {
+  height: 80px;
+  margin: 20px 0;
+}
+.section_title h1 {
+  font-size: 2.5rem;
+}
+.section_title span {
+  color: #a6a6a6;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+.sidebar_l,
+.sidebar_r {
+  width: 25%;
+  float: left;
+}
+.img_section img {
+  max-width: 100%;
+}
+.images-top {
+  height: 270px;
+}
+
+.sidebar_l .images-top {
+  background-image: url("../img/img-1.jpg");
+}
+.sidebar_r .images-top {
+  background-image: url("../img/img-2.jpg");
+  background-repeat: no-repeat;
+}
+
+.main_content {
+  padding: 0 10px;
+  width: 50%;
+  float: left;
+}
+.main_content .images-top {
+  background-image: url("../img/banner-2.jpg");
+  background-position: center;
+}
+
+section {
+  padding-top: 20px;
+}
+section p {
+  color: #918d8d;
+  margin-top: 20px;
+}
+#main_footer {
+  text-align: center;
+}
+#main_footer #heart {
+  color: red;
+  font-size: 1.5rem;
+}
 }
